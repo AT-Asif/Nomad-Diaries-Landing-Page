@@ -111,7 +111,6 @@ body {
     padding: 8px 15px;
     border-radius: 30px;
     font-size: 18px;
-   
     font-weight: 400;
 
 }
@@ -128,7 +127,7 @@ body {
     border: 2px solid white;
 }
 
-button:hover {
+.text-section button:hover {
     color: rgb(49, 123, 242);
     transition: color 0.3s ease;
     background-color: #1f2937;
@@ -187,3 +186,73 @@ button:hover {
     padding: 5px 0;
 }
 
+/* stories */
+
+.stories {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efefef;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.stories .quote {
+    font-size: 20px;
+    text-align: justify;
+    width: 600px;
+}
+
+.stories .traveler {
+   text-align: end;
+   
+}
+
+.quote-container {
+    background-color: #ebeaea;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* book-tour */
+
+.book-tour {
+   
+    padding: 100px;
+}
+
+.tour-container {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: rgb(49, 123, 242);
+    border-radius: 25px;
+    margin: 0;
+}
+
+.tour-content {
+    color: white;
+    margin: 0;
+    width: 70%;
+}
+
+.tour-button button {
+    color: rgb(255, 255, 255);
+    padding: 15px 8px;
+    border-radius: 25px;
+    background-color: rgb(49, 123, 242);
+    border: 3px solid white;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.tour-button button:hover {
+    background-color:rgb(235, 241, 252);
+    color: rgb(49, 123, 242);
+    border-color: rgb(19, 89, 219)
+}
+
+/*  */
